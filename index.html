@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --bg: #000;
+        --blue: #5b7fff;
+        --white: #ffffff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--blue);
+        font-family: "JetBrains Mono", monospace;
+        font-size: 15px;
+        line-height: 1.45;
+        padding: 26px 14px;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .mascot {
+        width: 340px;
+        display: block;
+        margin: 24px auto 10px;
+        mix-blend-mode: screen;
+        opacity: 0.95;
+        filter: drop-shadow(0 0 60px rgba(91, 127, 255, 0.4));
+      }
+
+      h1 {
+        font-size: 30px;
+        color: var(--white);
+        margin-bottom: 2px;
+      }
+
+      p {
+        margin: 4px 0;
+      }
+
+      .tagline {
+        color: var(--blue);
+      }
+
+      .jp {
+        color: var(--white);
+        opacity: 0.8;
+      }
+
+      .quote {
+        margin-top: 6px;
+        color: var(--blue);
+        font-style: italic;
+      }
+
+      h2 {
+        margin-top: 30px;
+        font-size: 14px;
+        color: var(--white);
+      }
+
+      .item {
+        margin: 16px 0;
+      }
+
+      strong {
+        color: var(--white);
+      }
+
+      a {
+        color: var(--white);
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: var(--blue);
+      }
+
+      .shuriken {
+        width: 70px;
+        display: block;
+        margin: 70px auto 20px;
+        opacity: 0.85;
+        filter: drop-shadow(0 0 18px rgba(91, 127, 255, 0.6))
+          drop-shadow(0 0 35px rgba(91, 127, 255, 0.3));
+      }
+
+      @media (max-width: 600px) {
+        .mascot {
+          width: 260px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- HERO -->
+    <div class="container">
+      <img src="mascot.png" class="mascot" />
+
+      <h1>light</h1>
+
+      <p class="tagline">technologist · student · builder</p>
+      <p class="jp">こんにちは</p>
+
+      <p class="quote">
+        &gt; what’s impossible for you is not impossible for me
+      </p>
+      <!-- ABOUT -->
+      <h2>about</h2>
+
+      <p>i’m light.</p>
+      <p>i go by alok irl, but online — this is who i am.</p>
+      <p>i’m a student building toward becoming a world-class engineer.</p>
+      <p>my stack is mostly python and c.</p>
+      <p>i focus on systems, execution, and scaling ideas.</p>
+      <p>i’m a techno-maximalist.</p>
+      <p>i believe technology is the most powerful force we have.</p>
+      <p>this site is my space on the internet.</p>
+
+      <!-- PROJECTS -->
+      <h2>projects</h2>
+
+      <div class="item">
+        <p>
+          <strong
+            ><a
+              href="https://thealokverse-image-classifier-mobilenetv2.hf.space/"
+              >image classifier mobilenetV2</a
+            ></strong
+          >
+        </p>
+        <p>
+          a simple, lightweight image classification project built using
+          MobileNetV2, fine-tuned on 5 flower categories, with Grad-CAM
+          explainability.
+        </p>
+      </div>
+
+      <div class="item">
+        <p>
+          <strong
+            ><a href="https://reverse-recipe-finder-gamma.vercel.app/"
+              >reverse recipe finder</a
+            ></strong
+          >
+        </p>
+        <p>
+          Reverse Recipe Finder takes the ingredients you already have and
+          suggests real, cookable recipes — powered by AI
+        </p>
+      </div>
+
+      <!-- BLOG -->
+      <h2>blog</h2>
+
+      <div class="item">
+        <p>
+          <a
+            href="https://thealokverse.bearblog.dev/the-physics-of-everyday-life/"
+          >
+            the physics of everyday life
+          </a>
+        </p>
+      </div>
+
+      <div class="item">
+        <p>
+          <a href="https://thealokverse.bearblog.dev/agency-intelligence/">
+            agency &gt; intelligence
+          </a>
+        </p>
+      </div>
+
+      <!-- LOGS -->
+      <h2>logs</h2>
+
+      <p style="margin-bottom: 10px">
+        fav books — zero to one, steve jobs, can't hurt me
+      </p>
+
+      <p style="margin-bottom: 10px">
+        interests — technology, science, physics, ai, ml, rl, programming,
+        reading books, philosophy, space, experiencing, learning and building
+        new things
+      </p>
+
+      <p>dislikes — slow progress, poor communication, microslop</p>
+
+      <!-- LINKS -->
+      <h2>links</h2>
+
+      <p><a href="mailto:alightalok007@gmail.com">email</a></p>
+      <p><a href="https://github.com/thealokverse">github</a></p>
+      <p><a href="https://x.com/thealokverse">twitter</a></p>
+
+      <img src="shuriken.png" class="shuriken" />
+    </div>
+  </body>
+</html>
