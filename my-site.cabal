@@ -1,0 +1,19 @@
+cabal-version:      3.0
+name:               my-site
+version:            0.1.0.0
+synopsis:           A quiet personal website built with Hakyll
+license:            BSD-3-Clause
+license-file:       LICENSE
+author:             thealokverse
+maintainer:         alightalok07@gmail.com
+build-type:         Simple
+extra-doc-files:    README.md
+
+executable my-site
+        main-is:          Main.hs
+        hs-source-dirs:   app
+        build-depends:    base ^>=4.20.2.0
+                        , filepath
+                        , hakyll ^>=4.17
+        default-language: Haskell2010
+        ghc-options:      -Wall -threaded -rtsopts

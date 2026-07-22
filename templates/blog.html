@@ -1,0 +1,11 @@
+<header class="page-intro"><p class="eyebrow">archive / thoughts in public</p><h1>blog</h1><p>notes on making, learning, and the strange machinery around us.</p></header>
+<section class="entry-list" aria-label="Blog posts">
+$for(posts)$
+  <article class="entry-card">
+    <div class="entry-meta"><time datetime="$isoDate$">$date$</time><span>$reading$</span></div>
+    <h2><a href="$url$">$title$</a></h2>
+    <p>$excerpt$</p>
+    <div class="tag-list">$tags$</div>
+  </article>
+$endfor$
+</section>
