@@ -15,21 +15,36 @@
   <body>
     <div class="site-shell">
       <header class="site-header">
-        <a class="wordmark" href="/" aria-label="thealokverse home">a/</a>
         <nav aria-label="Main navigation">
-          <a href="/">home</a>
-          <a href="/blog.html">blog</a>
-          <a href="/projects.html">projects</a>
-          <a href="/library.html">library</a>
-          <a href="/about.html">about</a>
+          <a href="/">HOME</a>
+          <a href="/blog.html">BLOG</a>
+          <a href="/projects.html">PROJECTS</a>
+          <a href="/library.html">LIBRARY</a>
+          <a href="/about.html">ABOUT</a>
         </nav>
         <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
-          <span aria-hidden="true">◐</span><span class="toggle-label">theme</span>
+          <svg class="theme-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <mask class="theme-icon-mask" id="theme-moon-mask">
+              <rect x="0" y="0" width="24" height="24" fill="white"></rect>
+              <circle cx="17" cy="7" r="8" fill="black"></circle>
+            </mask>
+            <circle class="theme-icon-core" cx="12" cy="12" r="8" mask="url(#theme-moon-mask)" fill="currentColor"></circle>
+            <g class="theme-icon-rays" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+              <line x1="12" y1="2" x2="12" y2="4.5"></line><line x1="12" y1="19.5" x2="12" y2="22"></line>
+              <line x1="2" y1="12" x2="4.5" y2="12"></line><line x1="19.5" y1="12" x2="22" y2="12"></line>
+              <line x1="4.9" y1="4.9" x2="6.7" y2="6.7"></line><line x1="17.3" y1="17.3" x2="19.1" y2="19.1"></line>
+              <line x1="4.9" y1="19.1" x2="6.7" y2="17.3"></line><line x1="17.3" y1="6.7" x2="19.1" y2="4.9"></line>
+            </g>
+          </svg>
         </button>
       </header>
       <main>$body$</main>
-      <footer>
-        <span>© 2026 thealokverse.com</span><span aria-hidden="true">·</span><span>built: hakyll</span><span aria-hidden="true">·</span><a href="https://x.com/thealokverse">x.com</a><span aria-hidden="true">·</span><a href="mailto:alightalok07@gmail.com">email</a>
+      <footer class="system-bar">
+        <span>© 2026 thealokverse.com</span>
+        <span>built: hakyll</span>
+        <a href="https://x.com/thealokverse">x.com</a>
+        <a href="mailto:alightalok07@gmail.com">email</a>
+        <span class="site-counter" aria-hidden="true"><span>2</span><span>0</span><span>2</span><span>6</span></span>
       </footer>
     </div>
     <script src="/assets/js/theme.js"></script>
