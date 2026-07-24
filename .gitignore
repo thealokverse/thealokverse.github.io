@@ -1,8 +1,6 @@
-# Hakyll generated site and cache
 _site/
 _cache/
 
-# Cabal, Stack, and local Hakyll build artifacts
 dist-newstyle/
 .stack-work/
 .cabal-sandbox/
@@ -14,16 +12,13 @@ hakyll-4.17.0.0/
 *.aux
 *.eventlog
 
-# Machine-local Cabal configuration and GHC environments
 cabal.project.local
 .ghc.environment.*
 
-# Local secrets (commit a deliberately named example file instead)
 .env
 .env.*
 !.env.example
 
-# Editor and operating-system files
 .DS_Store
 *.swp
 *.swo
