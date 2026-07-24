@@ -1,5 +1,5 @@
 ---
-title: About
+title: about
 ---
 
 <header class="page-intro"><p class="eyebrow">about / a few coordinates</p><h1>about</h1></header>

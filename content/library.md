@@ -1,5 +1,5 @@
 ---
-title: Library
+title: library
 ---
 
 <header class="page-intro"><p class="eyebrow">shelf / things worth keeping nearby</p><h1>library</h1><p>A living collection of work that has taught me something.</p></header>

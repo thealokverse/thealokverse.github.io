@@ -33,7 +33,7 @@ main = hakyll $ do
         compile $ do
             posts <- loadRecentPosts pattern
             let context =
-                    constField "title" ("Posts tagged “" <> tag <> "”")
+                    constField "title" ("posts tagged \"" <> tag <> "\"")
                         <> listField "posts" (postContext tags) (pure posts)
                         <> pageContext
             makeItem ""
@@ -47,7 +47,8 @@ main = hakyll $ do
         compile $ do
             posts <- take 3 <$> loadRecentPosts postsPattern
             let context =
-                    listField "posts" (postContext tags) (pure posts)
+                    constField "title" "home"
+                        <> listField "posts" (postContext tags) (pure posts)
                         <> pageContext
             makeItem ""
                 >>= loadAndApplyTemplate "templates/home.html" context
@@ -60,7 +61,7 @@ main = hakyll $ do
         compile $ do
             posts <- loadRecentPosts postsPattern
             let context =
-                    constField "title" "Blog"
+                    constField "title" "blog"
                         <> listField "posts" (postContext tags) (pure posts)
                         <> pageContext
             makeItem ""
@@ -72,7 +73,7 @@ main = hakyll $ do
     create ["404.html"] $ do
         route idRoute
         compile $ do
-            let context = constField "title" "Page not found" <> pageContext
+            let context = constField "title" "page not found" <> pageContext
             makeItem "<section class=\"page-intro\"><p class=\"eyebrow\">404</p><h1>page not found</h1><p>The page you requested does not exist.</p></section>"
                 >>= loadAndApplyTemplate "templates/default.html" context
                 >>= relativizeUrls
