@@ -7,11 +7,11 @@ tags: physics, science, learning
 
 **we live in a world ruled by invisible laws of physics, even when we don't notice them.**
 
+<!--more-->
+
 today, i want to talk about my favorite subject: physics. it's one of those fields that quietly explains almost everything around us, from the color of the sky to why we feel dizzy after spinning in circles. i picked a few everyday phenomena that most of us have experienced but rarely stop to think about. i had to revisit some of these concepts myself while writing this, so think of this as learning together rather than pretending to be newton.
 
 and one more thing: if you think physics is boring, i hope this article changes your mind.
-
-<!--more-->
 
 ## why don't we feel the earth spinning?
 
