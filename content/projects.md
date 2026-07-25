@@ -2,7 +2,7 @@
 title: projects
 ---
 
-<header class="page-intro"><p class="eyebrow">workbench / things i’ve made</p><h1>projects</h1><p>Small experiments and useful tools, made one careful iteration at a time.</p></header>
+<header class="page-intro"><p class="eyebrow">workbench / things i’ve made</p><h1>projects</h1><p>small experiments and useful tools built by me.</p></header>
 
 <section class="project-grid">
   <article class="project-card">
