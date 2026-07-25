@@ -2,8 +2,7 @@ cabal-version:      3.0
 name:               my-site
 version:            0.1.0.0
 synopsis:           A quiet personal website built with Hakyll
-license:            BSD-3-Clause
-license-file:       LICENSE
+license:            NONE
 author:             thealokverse
 maintainer:         alightalok07@gmail.com
 build-type:         Simple
