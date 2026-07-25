@@ -5,7 +5,7 @@ title: about
 <header class="page-intro"><p class="eyebrow">about / a few coordinates</p><h1>about</h1></header>
 
 <div class="prose">
-  <p>i’m light. irl, i go by alok. i'm a programmer and technologist. i enjoy understanding how things work, then building small, thoughtful software from what i learn. this site is my notebook: a place for unfinished ideas, useful links, and things i want to remember.</p>
+  <p>i’m light. irl, i go by alok. i'm a programmer and technologist. i enjoy understanding how things work, then building small, thoughtful software from what i learn. this site is my notebook: a place for unfinished ideas, useful links, and things i want to remember(built with hakyll btw).</p>
   <h2>interests</h2><p>technology, systems, linux, physics, ai, ml, rl, programming, reading books, philosophy, space, learning new things</p>
   <h2>current setup</h2><p>linux(fedora os + sway wm), ghostty, neovim + zed, and helium browser.</p>
   <h2>favorite technologies</h2><p>python, c, haskell.</p>
