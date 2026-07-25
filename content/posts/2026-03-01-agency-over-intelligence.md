@@ -1,6 +1,6 @@
 ---
 title: agency > intelligence
-date: 2026-07-25
+date: 2026-03-01
 reading: 5 min read
 tags: mindset, agency, philosophy
 ---
