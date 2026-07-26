@@ -72,8 +72,6 @@ blockquote { max-width: 28rem; margin: 3rem 0 0; padding: 1.1rem 0 1.1rem 1.3rem
 .section-heading a { color: var(--muted); font: .7rem var(--mono); }
 .latest-list li { display: flex; justify-content: space-between; gap: 1rem; padding: .8rem 0; border-top: 1px solid var(--border); }
 .latest-list a { text-decoration: none; }
-.buttons { display: flex; flex-wrap: wrap; gap: .5rem; margin: 4.2rem 0 1rem; }
-.buttons span { display: grid; width: 88px; height: 31px; place-items: center; border: 1px solid var(--border); color: var(--muted); font: .52rem var(--mono); text-align: center; }
 
 .page-intro { padding: 0 0 3.8rem; }
 .page-intro:has(+ .prose) { padding-bottom: 0; }
