@@ -19,9 +19,7 @@ this has been one of my favorite questions since childhood. i still remember ask
 
 the earth rotates at nearly **1,600 km/h** at the equator. despite moving that fast, we never notice it.
 
-the reason is surprisingly simple. according to **newton's first law of motion**, we feel changes in motion—acceleration—not constant, uniform motion. it's the same reason you don't notice movement inside a plane cruising smoothly at a constant speed, but you immediately feel the aircraft accelerate, brake, or turn.
-
-everything around us—the atmosphere, the oceans, buildings, trees, and even our bodies—is moving together with the earth at the same speed. since there is no relative motion between us and our surroundings, it feels as though we're standing perfectly still.
+the reason is surprisingly simple. according to **newton's first law of motion**, we feel changes in motion, not constant, uniform motion. it's the same reason you don't notice movement inside a plane cruising smoothly at a constant speed, but you immediately feel the aircraft accelerate, brake, or turn. everything around us, the atmosphere, the oceans, buildings, trees, and even our bodies, is moving together with the earth at the same speed. since there is no relative motion between us and our surroundings, it feels as though we're standing perfectly still.
 
 ## why is the sky blue?
 
@@ -41,12 +39,9 @@ during sunrise and sunset, sunlight travels through a much thicker layer of atmo
 ## why don't we sink through the floor?
 
 here's something that sounds almost unbelievable.
+the atoms in your body never actually touch the atoms in the floor. what prevents you from falling through is the **electromagnetic force**. the negatively charged electrons surrounding the atoms in your body strongly repel the electrons in the floor. that repulsion creates what we experience as solidity.
 
-the atoms in your body never actually touch the atoms in the floor.
-
-what prevents you from falling through is the **electromagnetic force**. the negatively charged electrons surrounding the atoms in your body strongly repel the electrons in the floor. that repulsion creates what we experience as solidity.
-
-in other words, standing on the floor isn't really about atoms physically touching one another—it's about invisible electric fields pushing against each other at the quantum level.
+in other words, standing on the floor isn't really about atoms physically touching one another. it's about invisible electric fields pushing against each other at the quantum level.
 
 ## why do we see lightning before thunder?
 
@@ -60,9 +55,7 @@ because light is vastly faster than sound, the flash from a lightning strike rea
 
 a freshly brewed cup of coffee never stays hot forever.
 
-heat naturally flows from hotter objects to cooler surroundings until thermal equilibrium is reached. this behavior is described by the **second law of thermodynamics**.
-
-the rate at which the coffee cools is explained by **newton's law of cooling**: the greater the temperature difference between the coffee and the surrounding air, the faster the coffee loses heat.
+heat naturally flows from hotter objects to cooler surroundings until thermal equilibrium is reached. this behavior is described by the **second law of thermodynamics**. the rate at which the coffee cools is explained by **newton's law of cooling**. the greater the temperature difference between the coffee and the surrounding air, the faster the coffee loses heat.
 
 entropy also plays an important role. energy naturally spreads out over time, making concentrated heat gradually disappear until everything reaches the same temperature.
 
@@ -70,17 +63,13 @@ entropy also plays an important role. energy naturally spreads out over time, ma
 
 this was another childhood mystery for me.
 
-inside your inner ear are tiny semicircular canals filled with fluid. these structures act as your body's motion sensors and help maintain balance.
-
-when you spin, the fluid inside these canals begins moving as well. after you suddenly stop, the fluid keeps moving for a short time. your brain receives conflicting information: your eyes say you've stopped, while your inner ear still senses rotation.
+inside your inner ear are tiny semicircular canals filled with fluid. these structures act as your body's motion sensors and help maintain balance. when you spin, the fluid inside these canals begins moving as well. after you suddenly stop, the fluid keeps moving for a short time. your brain receives conflicting information. your eyes say you've stopped, while your inner ear still senses rotation.
 
 that mismatch creates the familiar feeling of dizziness.
 
 ## conclusion
 
-physics isn't just a collection of equations in a textbook. it's the reason the sky is blue, why coffee cools down, why thunder arrives after lightning, and why you can stand on the ground without falling through it.
-
-once you start noticing it, physics appears everywhere.
+physics isn't just a collection of equations in a textbook. it's the reason the sky is blue, why coffee cools down, why thunder arrives after lightning, and why you can stand on the ground without falling through it. once you start noticing it, physics appears everywhere.
 
 if you're looking for inspiration, watch *oppenheimer* or *interstellar*. they're fantastic reminders that physics can be both beautiful and deeply human. reading good physics books also helps build intuition beyond solving equations.
 
