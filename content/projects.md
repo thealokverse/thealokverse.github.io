@@ -11,7 +11,6 @@ title: projects
     <p class="stack">Python · CLI · AI</p>
     <p class="project-links">
       <a href="https://github.com/thealokverse/blazecode">GitHub ↗</a>
-      <span>demo soon</span>
     </p>
   </article>
 
@@ -21,7 +20,6 @@ title: projects
     <p class="stack">C · RL · Open Source</p>
     <p class="project-links">
       <a href="https://github.com/PufferAI/PufferLib/tree/4.0/ocean/docking">GitHub ↗</a>
-      <span>demo soon</span>
     </p>
   </article>
 </section>

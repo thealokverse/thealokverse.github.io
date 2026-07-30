@@ -92,8 +92,7 @@ blockquote { max-width: 28rem; margin: 3rem 0 0; padding: 1.1rem 0 1.1rem 1.3rem
 .project-card h2 { font-size: 1.5rem; }
 .project-card > p:nth-child(2) { margin: .8rem 0 1.2rem; color: var(--muted); }
 .stack { margin: auto 0 1.3rem; color: var(--accent); }
-.project-links { display: flex; justify-content: space-between; margin: 0; font: .7rem var(--mono); }
-.project-links span { color: var(--muted); }
+.project-links { margin: 0; font: .7rem var(--mono); }
 
 .library-list { margin-bottom: 4rem; border-top: 1px solid var(--border); }
 .library-list article { padding: 1.6rem 0; border-width: 0 0 1px; background: transparent; }
