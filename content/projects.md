@@ -21,6 +21,7 @@ title: projects
     <p class="project-links">
       <a href="https://github.com/PufferAI/PufferLib/tree/4.0/ocean/docking">GitHub ↗</a>
     </p>
+  </article>
 
   <article class="project-card">
     <h2>Image Classifier</h2>
@@ -29,6 +30,7 @@ title: projects
     <p class="project-links">
       <a href="https://thealokverse-image-classifier-mobilenetv2.hf.space/">GitHub ↗</a>
     </p>
+  </article>
 
   <article class="project-card">
     <h2>CLI Notes</h2>
@@ -37,6 +39,5 @@ title: projects
     <p class="project-links">
       <a href="https://thealokverse-image-classifier-mobilenetv2.hf.space/">GitHub ↗</a>
     </p>
-  
   </article>
 </section>
