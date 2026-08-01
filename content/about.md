@@ -32,7 +32,7 @@ title: about
     linux (fedora + sway), ghostty, neovim + zed, and helium browser.
   </p>
   
-  <h2>favorite technologies</h2>
+  <h2>favourite technologies</h2>
   <p>
     python, c.
   </p>
