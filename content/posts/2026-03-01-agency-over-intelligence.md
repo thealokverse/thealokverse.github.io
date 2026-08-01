@@ -5,7 +5,7 @@ reading: 5 min read
 tags: mindset, agency, philosophy
 ---
 
-for a long time, i believed intelligence was the main thing that mattered.
+**for a long time, i believed intelligence was the main thing that mattered.**
 
 <!--more-->
 
