@@ -21,5 +21,22 @@ title: projects
     <p class="project-links">
       <a href="https://github.com/PufferAI/PufferLib/tree/4.0/ocean/docking">GitHub ↗</a>
     </p>
+
+  <article class="project-card">
+    <h2>Image Classifier</h2>
+    <p>It's a simple, lightweight image classification project built using MobileNetV2</p>
+    <p class="stack">Python · ML · Learning</p>
+    <p class="project-links">
+      <a href="https://thealokverse-image-classifier-mobilenetv2.hf.space/">GitHub ↗</a>
+    </p>
+
+  <article class="project-card">
+    <h2>CLI Notes</h2>
+    <p>A production-quality Python command line notes application</p>
+    <p class="stack">Python · CLI · Learning</p>
+    <p class="project-links">
+      <a href="https://thealokverse-image-classifier-mobilenetv2.hf.space/">GitHub ↗</a>
+    </p>
+  
   </article>
 </section>
