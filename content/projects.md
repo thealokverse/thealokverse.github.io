@@ -28,7 +28,7 @@ title: projects
     <p>It's a simple, lightweight image classification project built using MobileNetV2</p>
     <p class="stack">Python · ML · Learning</p>
     <p class="project-links">
-      <a href="https://thealokverse-image-classifier-mobilenetv2.hf.space/">GitHub ↗</a>
+      <a href="https://thealokverse-image-classifier-mobilenetv2.hf.space/">Hugging Face ↗</a>
     </p>
   </article>
 
@@ -37,7 +37,7 @@ title: projects
     <p>A production-quality Python command line notes application</p>
     <p class="stack">Python · CLI · Learning</p>
     <p class="project-links">
-      <a href="https://thealokverse-image-classifier-mobilenetv2.hf.space/">GitHub ↗</a>
+      <a href="https://github.com/thealokverse/cli-notes">GitHub ↗</a>
     </p>
   </article>
 </section>
