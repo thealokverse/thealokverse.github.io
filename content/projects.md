@@ -33,11 +33,11 @@ title: projects
   </article>
 
   <article class="project-card">
-    <h2>CLI Notes</h2>
-    <p>A production-quality Python command line notes application</p>
-    <p class="stack">Python · CLI · Learning</p>
+    <h2>Jot</h2>
+    <p>A fast notes taking app for your terminal</p>
+    <p class="stack">Python · CLI · Tools</p>
     <p class="project-links">
-      <a href="https://github.com/thealokverse/cli-notes">GitHub ↗</a>
+      <a href="https://github.com/thealokverse/jot">GitHub ↗</a>
     </p>
   </article>
 </section>
