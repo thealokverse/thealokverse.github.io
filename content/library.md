@@ -30,6 +30,19 @@ title: library
     <p class="byline">Sam Altman</p>
     
     <p>A practical guide to achieving success in any field.</p>
-  
+
+
+    <p class="library-kind">book</p>
+
+    <h2>
+    <a href="https://colorcomputerarchive.com/repo/Documents/Books/The%20C%20Programming%20Language%20(Kernighan%20Ritchie).pdf" target="_blank" rel="noopener noreferrer">
+    The C Programming Language
+    </a>
+    </h2>
+
+    <p class="byline">Brian Kernighan and Dennis Ritchie</p>
+
+    <p>The legendary C programming book every programmer should study.</p>
+
   </article>
 </section>

@@ -14,10 +14,10 @@ title: about
   </p>
 
   <p>
-    lately i've been spending most of my time building reinforcement learning
+    lately i've been spending most of my time studying maths and physics, building rl
     environments at puffer.ai and building blazecode, a lightweight terminal ai
-    agent. in between, i'm usually experimenting with linux or writing little
-    tools that make my day-to-day workflow a bit more enjoyable. i'm especially
+    agent. in between, i'm usually experimenting with linux, learning and writing C, or 
+    writing little tools that make my day-to-day workflow a bit more enjoyable. i'm especially
     interested in systems, ai, machine learning, reinforcement learning, and the
     craft of building software that feels simple and pleasant to use.
   </p>
@@ -31,7 +31,7 @@ title: about
   </p>
 
   <p>
-    outside of technology, you'll usually find me playing football and video games, watching anime, reading books, learning physics, listening to music, or simply thinking about the kind of future i'd like to help build. i'm happiest when i'm making something, no matter how small, and learning a little more than i knew yesterday.
+    outside of technology, you'll usually find me playing football and video games, watching anime & movies, reading books, learning physics, listening to music, or simply thinking about the kind of future i'd like to help build.
   </p>
 
   <h2>interests</h2>
@@ -47,7 +47,7 @@ title: about
 
   <h2>current setup</h2>
   <p>
-    fedora + sway, ghostty, neovim, zed, and helium browser.
+    omarchy, ghostty, neovim, zed, and helium browser.
   </p>
 
   <h2>favorite technologies</h2>
