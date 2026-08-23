@@ -46,7 +46,7 @@ nav a:hover { color: var(--accent); border-color: var(--accent); }
   .theme-icon, .theme-icon-core, .theme-icon-mask circle, .theme-icon-rays { transition: none; }
 }
 
-main { min-height: calc(100vh - 180px); }
+main { min-height: 0; }
 .hero { padding: .3rem 0 4.5rem; }
 .eyebrow { margin: 0 0 1.2rem; color: var(--muted); }
 .eyebrow span { color: var(--accent); padding: 0 .25rem; }
@@ -86,9 +86,11 @@ blockquote { max-width: 28rem; margin: 3rem 0 0; padding: 1.1rem 0 1.1rem 1.3rem
 
 .page-intro { padding: 0 0 3rem; }
 .page-intro:has(+ .prose) { padding-bottom: 0; }
+.page-intro:has(+ .plain-list) { padding-bottom: 1.4rem; }
 .page-intro h1 { margin-bottom: 1.2rem; }
+.page-intro h1:last-child { margin-bottom: 1.7rem; }
 .page-intro > p:last-child { max-width: 32rem; margin: 0; color: var(--muted); font-size: 1.18rem; }
-.page-intro:has(+ .prose) > p:last-child { margin-bottom: 2rem; }
+.page-intro:has(+ .prose) > p:last-child { margin-bottom: 1.35rem; }
 .entry-list { margin-bottom: 4rem; }
 .entry-card { padding: 1.8rem 0; border-top: 1px solid var(--border); }
 .entry-card:last-child { border-bottom: 1px solid var(--border); }
@@ -112,18 +114,19 @@ blockquote { max-width: 28rem; margin: 3rem 0 0; padding: 1.1rem 0 1.1rem 1.3rem
 .library-list h2 { font-size: 1.42rem; }
 .byline { margin: .25rem 0 .75rem; color: var(--muted); font-style: italic; }
 .library-list article > p:last-child { max-width: 34rem; margin: 0; }
-.prose { max-width: 41rem; margin-bottom: 4rem; }
-.prose p { margin: 0 0 2rem; }
-.prose h2 { margin: 3rem 0 .7rem; font-size: 1.45rem; }
+.prose { max-width: 41rem; margin-bottom: 2.25rem; }
+.prose p { margin: 0 0 1.65rem; }
+.prose h2 { margin: 2.35rem 0 .55rem; font-size: 1.45rem; }
+.prose > :last-child { margin-bottom: 0; }
 .contact-note { color: var(--muted); }
-.about-photo { margin: 0 0 2rem; }
+.about-photo { margin: 0 0 1.65rem; }
 .about-photo img { display: block; width: 100%; max-width: 100%; height: auto; }
 .support-line { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: .9rem; align-items: baseline; }
 .prose p.support-line { margin: 0 0 .55rem; }
 .support-line .mono { letter-spacing: .04em; }
 .upi-copy { margin: 0; padding: 0; border: 0; background: none; color: inherit; font: inherit; text-align: inherit; cursor: pointer; }
 .upi-copy[data-copied]::after { content: "copied"; margin-left: .55rem; color: var(--muted); font: .69rem var(--mono); letter-spacing: .035em; text-transform: lowercase; }
-.plain-list { margin: 0 0 4rem; padding: 0; list-style: none; border-top: 1px solid var(--border); }
+.plain-list { margin: 0 0 2rem; padding: 0; list-style: none; border-top: 1px solid var(--border); }
 .plain-list li { padding: .85rem 0; border-bottom: 1px solid var(--border); font-family: var(--mono); font-size: .92rem; letter-spacing: .02em; }
 .plain-list a { text-decoration: none; }
 .timeline { margin: 0 0 4rem; padding: 0; list-style: none; }
@@ -156,6 +159,15 @@ blockquote { max-width: 28rem; margin: 3rem 0 0; padding: 1.1rem 0 1.1rem 1.3rem
   nav a { min-width: auto; }
   .home-grid, .project-grid { grid-template-columns: 1fr; }
   .page-intro { padding-top: 0; }
+  .page-intro:has(+ .plain-list) { padding-bottom: 1.1rem; }
+  .page-intro:has(+ .prose) > p:last-child { margin-bottom: 1.1rem; }
+  .page-intro h1:last-child { margin-bottom: 1.35rem; }
+  .prose { margin-bottom: 1.5rem; }
+  .prose p { margin-bottom: 1.35rem; }
+  .prose h2 { margin-top: 1.85rem; }
+  .prose > :last-child { margin-bottom: 0; }
+  .about-photo { margin-bottom: 1.35rem; }
+  .plain-list { margin-bottom: 1.25rem; }
   .post { padding-top: 4rem; }
   .latest-list li { align-items: baseline; }
   .latest-list time { white-space: nowrap; }
