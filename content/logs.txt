@@ -1,0 +1,13 @@
+# logs for thealokverse.com
+# format: YYYY.MM.DD HH:MM|message
+# - one entry per line
+# - lines starting with # are comments
+# - empty lines ignored
+# - split on FIRST pipe only, so message may contain |
+# - timestamp supports 2026.08.23 10:42 and 2026-08-23 10:42
+# - newest entries automatically appear first (sorted at build)
+
+2026.08.23 10:42|fixed the stupid thing
+2026.08.10 18:30|exploring linux rabbit holes; way too deep now
+2026.07.30 14:00|adding content to the site
+2026.07.25 19:00|shipping this website XD

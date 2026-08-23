@@ -1,11 +1,11 @@
 ---
 title: switch to linux
 date: 2026-08-22
-reading: 10 min read
-tags: linux, OS, open-source
+reading: 9 min read
+tags: linux, distro, open-source
 ---
 
-**I switched to Linux. You probably should too.**
+**i switched to linux. you probably should too.**
 
 <!--more-->
 

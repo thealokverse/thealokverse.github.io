@@ -1,0 +1,22 @@
+<header class="page-intro">
+  <p class="eyebrow">timeline / a few coordinates in time</p>
+  <h1>journey</h1>
+  <p>sparse notes on what i've been doing. newest year last.</p>
+</header>
+
+$if(hasJourney)$
+<ol class="timeline">
+  $for(years)$
+  <li>
+    $if(showYear)$
+    <time datetime="$year$">$year$</time>
+    $else$
+    <time class="is-repeat" datetime="$year$"></time>
+    $endif$
+    <span>$text$</span>
+  </li>
+  $endfor$
+</ol>
+$else$
+<p class="mono muted">nothing here yet.</p>
+$endif$

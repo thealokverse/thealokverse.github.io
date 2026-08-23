@@ -1,0 +1,10 @@
+# journey timeline for thealokverse.com
+# format: YYYY|note
+
+
+late 2000s|rise
+2016|fell in love with innovation after reading a chapter about inventors and their inventions
+2023|peak high school era; participated in various competitions and made a lot of friends
+2025|period of solitude; started programming and created an account on x
+2026|watched a 1994 interview with steve jobs and haven't been the same since; started learning c, building rl environments, and working on blazecode
+

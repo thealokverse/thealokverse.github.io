@@ -13,12 +13,21 @@
     <p class="mono muted">status: cooking</p>
   </section>
   <section class="notebook-section logs">
-    <h2>logs:</h2>
-    <ul class="log-list">
-      <li><time datetime="2026-07-25">2026.07.25</time><span>shipping this website XD</span></li>
-      <li><time datetime="2026-07-25">2026.07.25</time><span>holy shit, it's working</span></li>
-      <li><time datetime="2026-07-30">2026.07.30</time><span>adding content to the site</span></li>
-    </ul>
+    <h2><a href="/logs/">logs:</a></h2>
+    $if(hasLogs)$
+    <div class="log-viewport" tabindex="0">
+      <ul class="log-list">
+        $for(logs)$
+        <li><time datetime="$isoTime$">$displayTime$</time><span>$message$</span></li>
+        $endfor$
+      </ul>
+    </div>
+    $else$
+    <p class="mono muted">no logs yet</p>
+    $endif$
+    $if(hasMoreLogs)$
+    <p class="log-more"><a href="/logs/">all logs →</a></p>
+    $endif$
   </section>
 </div>
 

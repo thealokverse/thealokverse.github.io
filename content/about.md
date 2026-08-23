@@ -1,5 +1,6 @@
 ---
 title: about
+description: i'm light. programmer, technologist, and high school student.
 ---
 
 <header class="page-intro">
@@ -9,17 +10,20 @@ title: about
 
 <div class="prose">
   <p>
-    i'm light. irl, i go by alok. i'm a 17 yo high school student, programmer, and technologist. 
+    i'm light. irl, i go by alok. i'm a 17 y/o high school student, programmer, and technologist. 
     i enjoy understanding how things work and then building small, thoughtful software from what i learn.
   </p>
 
+  <figure class="about-photo">
+    <img src="/assets/desk.jpg" width="1600" height="530" alt="desk">
+  </figure>
+
   <p>
     lately i've been spending most of my time studying maths and physics, building rl
-    environments at puffer.ai and building blazecode, a lightweight terminal ai
+    environments at <a href="https://puffer.ai">puffer.ai</a> and building <a href="https://github.com/thealokverse/blazecode">blazecode</a>, a lightweight terminal ai
     agent. in between, i'm usually experimenting with linux, learning and writing C, or 
     writing little tools that make my day-to-day workflow a bit more enjoyable. i'm especially
-    interested in systems, ai, machine learning, reinforcement learning, and the
-    craft of building software that feels simple and pleasant to use.
+    interested in computers, systems, and the craft of building software that feels simple and pleasant to use.
   </p>
 
   <p>
@@ -31,12 +35,13 @@ title: about
   </p>
 
   <p>
-    outside of technology, you'll usually find me playing football and video games, watching anime & movies, reading books, learning physics, listening to music, or simply thinking about the kind of future i'd like to help build.
+    outside of technology, you'll usually find me playing football and video games, watching anime & movies, reading books, 
+    listening to music, or simply thinking about the kind of future i'd like to help build.
   </p>
 
   <h2>interests</h2>
   <p>
-    technology, systems, linux, ai, ml, rl, programming, physics, space,
+    technology, computers, systems, linux, ai, ml, rl, programming, physics, space,
     philosophy, startups, reading, and learning new things.
   </p>
 
@@ -47,7 +52,7 @@ title: about
 
   <h2>current setup</h2>
   <p>
-    omarchy, ghostty, neovim, zed, and helium browser.
+    omarchy, ghostty, neovim, zed, and firefox browser.
   </p>
 
   <h2>favorite technologies</h2>

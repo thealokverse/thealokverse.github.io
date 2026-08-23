@@ -1,7 +1,7 @@
 ---
 title: basics of ml
 date: 2026-05-32
-reading: 8 min read
+reading: 9 min read
 tags: ai, ml, learning
 ---
 

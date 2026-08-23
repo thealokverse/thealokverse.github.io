@@ -1,5 +1,6 @@
 ---
 title: projects
+description: small experiments and useful tools built by me.
 ---
 
 <header class="page-intro"><p class="eyebrow">workbench / things i’ve made</p><h1>projects</h1><p>small experiments and useful tools built by me.</p></header>

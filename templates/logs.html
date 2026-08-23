@@ -1,0 +1,17 @@
+<header class="page-intro">
+  <p class="eyebrow">archive / plain text feed</p>
+  <h1>logs</h1>
+  <p>short timestamped notes — newest first. raw feed at <a href="/logs.txt">/logs.txt</a>.</p>
+</header>
+
+<section class="log-archive">
+  $if(hasLogs)$
+  <ul class="log-list log-list--archive">
+    $for(logs)$
+    <li><time datetime="$isoTime$">$displayTime$</time><span>$message$</span></li>
+    $endfor$
+  </ul>
+  $else$
+  <p class="mono muted">no logs yet.</p>
+  $endif$
+</section>
