@@ -15,7 +15,7 @@ description: i'm light. programmer, technologist, and high school student.
   </p>
 
   <figure class="about-photo">
-    <img src="/assets/desk.jpg" width="1600" height="530" alt="desk">
+    <img src="/assets/desk.jpg" width="735" height="271" alt="desk">
   </figure>
 
   <p>
@@ -29,7 +29,7 @@ description: i'm light. programmer, technologist, and high school student.
   <p>
     this website is my notebook, where i collect
     ideas before i forget them, write about things i'm learning, document
-    projects, and occasionally disappear into rabbit holes that start with one
+    projects, keep track of my <a href="/journey/">journey</a>, and occasionally disappear into rabbit holes that start with one
     question and end somewhere completely unexpected. not everything here is
     finished, but that's part of the point.
   </p>
@@ -52,7 +52,7 @@ description: i'm light. programmer, technologist, and high school student.
 
   <h2>current setup</h2>
   <p>
-    omarchy, ghostty, neovim, zed, and firefox browser.
+    omarchy, ghostty, tmux, neovim, zed, and firefox browser.
   </p>
 
   <h2>favorite technologies</h2>
